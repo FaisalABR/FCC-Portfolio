@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <p>JS Variable Docs</p>
+      </header>
+      <a href="#JavaScript_and_Java" class="main-section"
+        >JavaScript and Java</a
+      >
+      <a href="#Hello_world" class="main-section">Hello world</a>
+      <a href="#Variables" class="main-section">Variables</a>
+      <a href="#Declaring_variables" class="main-section"
+        >Declaring variables</a
+      >
+      <a href="#Variable_scope" class="main-section">Variable scope</a>
+      <a href="#Data_types" class="main-section">Data types</a>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section">
+        <header id="JavaScript_and_Java">JavaScript and Java</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+          perspiciatis dolore tempora, nemo odit, quae earum sequi modi quisquam
+          distinctio, maxime alias optio voluptatum nihil. Eius, earum labore.
+          Quo, nesciunt, debitis corporis illum autem distinctio eos ipsum animi
+          velit possimus beatae assumenda necessitatibus repudiandae recusandae
+          voluptatibus aspernatur asperiores aliquid. Autem.
+        </p>
+      </section>
+
+      <section class="main-section">
+        <header id="Hello_world">Hello world</header>
+        <p>
+          To get started with writing JavaScript, open the Scratchpad and write
+          your first "Hello world" JavaScript code:
+        </p>
+        <code>
+          <pre>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+                    greetMe("World");</pre
+          >
+        </code>
+        <p>
+          Select the code in the pad and hit Ctrl+R to watch it unfold in your
+          browser!
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique,
+          enim adipisci. Repellendus expedita quas cum, temporibus minus a
+          aliquid facere ab praesentium illum dignissimos consectetur labore
+          alias amet. Magnam mollitia non officia accusamus maxime tenetur
+          tempora facere porro dicta cupiditate, nostrum id rem, eius
+          perferendis praesentium, doloribus delectus! Consequatur, autem culpa.
+          Pariatur at voluptates debitis modi, sapiente quod tempore delectus.
+        </p>
+      </section>
+
+      <section class="main-section">
+        <header id="Variables">Variables</header>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex neque
+          similique deserunt accusantium repudiandae quis totam porro, doloribus
+          molestiae praesentium optio reiciendis corrupti! Dolores aspernatur
+          voluptate architecto aliquid beatae ratione exercitationem dolorem
+          minus, natus quo laboriosam nemo, soluta odio et corporis vel, a esse
+          magnam ipsum voluptatum amet rem aut vitae. Dolorem doloremque natus
+          beatae dignissimos commodi odit, corporis mollitia?
+        </p>
+      </section>
+
+      <section class="main-section">
+        <header id="Declaring_variables">Declaring variables</header>
+        <p>You can declare a variable in three ways:</p>
+        <p>With the keyword var. For example,</p>
+        <code><pre>var x = 42.</pre></code>
+        <p>
+          This syntax can be used to declare both local and global variables.
+        </p>
+        <p>By simply assigning it a value. For example,</p>
+        <code><pre>x = 42.</pre></code>
+        <p>
+          This always declares a global variable. It generates a strict
+          JavaScript warning. You shouldn't use this variant.
+        </p>
+        <p>With the keyword let. For example,</p>
+        <code><pre>let y = 13.</pre></code>
+        <p>
+          This syntax can be used to declare a block scope local variable. See
+          Variable scope below.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi
+          animi, optio mollitia quia modi blanditiis temporibus in illo ea qui
+          ex nisi omnis perferendis unde placeat quam, officia dicta saepe
+          incidunt facere error tempora nihil explicabo? Aut, dolorum magni?
+        </p>
+      </section>
+
+      <section class="main-section">
+        <header id="Variable_scope">Variable scope</header>
+        <p>
+          JavaScript before ECMAScript 2015 does not have block statement scope;
+          rather, a variable declared within a block is local to the function
+          (or global scope) that the block resides within. For example the
+          following code will log 5, because the scope of x is the function (or
+          global context) within which x is declared, not the block, which in
+          this case is an if statement.
+        </p>
+        <code><pre>if (true) { var x = 5; } console.log(x); // 5</pre></code>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          sit odio? Quos facilis deleniti est pariatur officiis sit molestias
+          consectetur facere ducimus officia nulla debitis, fuga maiores
+          excepturi veniam non quia odio. Magni animi similique aspernatur
+          aliquid quam quos quisquam natus adipisci modi tenetur facere
+          accusantium sapiente, quaerat ea debitis quo nihil. Mollitia dicta
+          unde error aliquam recusandae repudiandae incidunt, nisi asperiores
+          amet dolorum ab beatae fugit atque earum et.
+        </p>
+      </section>
+
+      <section class="main-section">
+        <header id="Data_types">Data types</header>
+        <p>The latest ECMAScript standard defines seven data types:</p>
+        <ul>
+          <li>Boolean. true and false.</li>
+          <li>
+            null. A special keyword denoting a null value. Because JavaScript is
+            case-sensitive, null is not the same as Null, NULL, or any other
+            variant.
+          </li>
+          <li>undefined. A top-level property whose value is undefined.</li>
+          <li>Number. 42 or 3.14159.</li>
+          <li>String. "Howdy"</li>
+        </ul>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+          sit odio? Quos facilis deleniti est pariatur officiis sit molestias
+          consectetur facere ducimus officia nulla debitis, fuga maiores
+          excepturi veniam non quia odio. Magni animi similique aspernatur
+          aliquid quam quos quisquam natus adipisci modi tenetur facere
+          accusantium sapiente, quaerat ea debitis quo nihil. Mollitia dicta
+          unde error aliquam recusandae repudiandae incidunt, nisi asperiores
+          amet dolorum ab beatae fugit atque earum et.
+        </p>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
